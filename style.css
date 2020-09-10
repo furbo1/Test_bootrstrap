@@ -1,0 +1,58 @@
+/* #new {
+  background-color: aqua;
+  width: 200px;
+  height: 30px;
+  animation: 10s linear animationName;
+}
+
+@keyframes animationName {
+  from {
+    background-color: aquamarine;
+    width: 300px;
+  }
+  to {
+    background-color: blue;
+    width: 1200px;
+  }
+} */
+
+#d1 {
+  background-color: yellowgreen;
+  width: 180px;
+  height: 100px;
+  animation: 10s linear animName;
+}
+
+#d2 {
+  background-color: red;
+  width: 180px;
+  height: 100px;
+  animation: 10s linear newA;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(135deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes newA {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
